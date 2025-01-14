@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
 # terraform-templates
-=======
-# Terraform Project Templates
 
 ## Overview
 This repository contains Terraform templates designed to help you provision and manage various resources on **IBM Cloud**.
@@ -33,19 +30,15 @@ Update other necessary variables in the example.auto.tfvars file.
 3. **Initialize Terraform:**
 
 ```bash
-Copy code
 terraform init
 
 ```
 4. **Review the execution plan:**
 ```bash
-Copy code
 terraform plan
 ```
 5. **Apply the changes to provision resources:**
 
 ```bash
-Copy code
 terraform apply
 ```
->>>>>>> Stashed changes
