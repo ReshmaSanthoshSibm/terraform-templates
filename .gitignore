@@ -1,0 +1,17 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore transient lock info files created by terraform apply
+.terraform.tfstate.lock.info
+
+# Don't ignore regular tfvars files
+!*.tfvars
+
+# Ignore all .tfvars files that contain secrets
+*.secrets.auto.tfvars
+*.private.auto.tfvars
+*secrets.auto.tfvars 
