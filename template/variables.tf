@@ -3,3 +3,6 @@ variable "vpc_name"{
     description = "Name of the VPC that you wish to create"
 }
  
+variable resourceGroup_name{
+    type = string
+}

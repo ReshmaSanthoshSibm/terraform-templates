@@ -12,6 +12,8 @@
 !*.tfvars
 
 # Ignore all .tfvars files that contain secrets
-*.secrets.auto.tfvars
 *.private.auto.tfvars
-*secrets.auto.tfvars 
+*/secret.auto.tfvars 
+
+.terraform/
+.DS_Store
